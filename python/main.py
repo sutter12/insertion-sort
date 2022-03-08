@@ -16,9 +16,9 @@ def insertionSort(list):
     return list
 
 def main():
-    myList = [5,2,4,6,1,3] #unsorted list
+    unsortedList = [5,2,4,6,1,3] #unsorted list
 
-    sortedList = insertionSort(myList) #pass myList into insertion-sort to be sorted
+    sortedList = insertionSort(unsortedList) #pass myList into insertion-sort to be sorted
 
     print(sortedList) #print the sorted list
 
